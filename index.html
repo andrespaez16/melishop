@@ -1,0 +1,467 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Dr+Sugiyama" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+<body>
+    <!---------------------------------------------------- Navegacion----------------------------------- -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+         <a class="navbar-brand" href="#"><img src="./MELISHOP.png" width="150px" height="30px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav text-uppercase ml-auto">
+                        <li class="nav-item">
+                          <a class="nav-link " href="#services"><i class="fas fa-shopping-cart"></i> Canasta</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link " href="#portfolio">Salir</a>
+                        </li> 
+                 </ul>
+        </div>
+      </nav>
+
+<!------------------------------------------------- cuerpo --------------------------> 
+
+<div class="container" id="cuerpo">
+    <div class="row">
+                <div class=" col-3" id="buscador">
+                      <div class="input-group mb-3" id="buscar">
+                              <input type="text" class="form-control" placeholder="Buscar" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                              <div class="input-group-append">
+                                <span class="input-group-text" id="basic-addon2"><i class="fas fa-search"></i></span>
+                              </div>
+                            </div>
+                            <h5>Categorias</h5>
+                      <div class="list-group"id="menu" >
+                              <button type="button" class="list-group-item list-group-item-action active list-group-item-secondary  d-flex justify-content-between align-items-center">
+                                Todos <span class="badge badge-primary badge-pill">100</span>
+                              </button>
+                              <button type="button" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">Hombre <span class="badge badge-primary badge-pill">4</span></button>
+                              <button type="button" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">Mujer <span class="badge badge-primary badge-pill">12</span></button>
+                              <button type="button" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">Hipster <span class="badge badge-primary badge-pill">24</span></button>
+                              <button type="button" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center" >Metal <span class="badge badge-primary badge-pill">6</span></button>
+                              <button type="button" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">Universidad <span class="badge badge-primary badge-pill">5</span></button>
+                              <button type="button" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">Deportiva <span class="badge badge-primary badge-pill">6</span></button>
+                              <button type="button" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">Rayas <span class="badge badge-primary badge-pill">11</span></button>
+                              <button type="button" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center ">Apretadas <span class="badge badge-primary badge-pill">19</span></button>   
+                        </div>             
+              </div>     
+            <div class=" col-9">
+                  <div class="container">
+                      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                              <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                  <img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/banner-slider-1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/banner-slider-2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/banner-slider-3.jpg" class="d-block w-100" alt="...">
+                                </div>
+                              </div>
+                              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                              </a>
+                              
+                        </div>
+                  </div>  
+                  <div class="container">
+                      <div class="row" id="tarjetas">
+                                    <div class="card">
+                                      <img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/camiseta-1.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Hipster Ultimate</h5>
+                                          <p class="card-text">La camisa Ideal para un Hipster</p>
+                                          <a href="#" class="btn btn-primary">$55 <i class="fas fa-shopping-cart"></i> </a>
+                                          <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#uno" data-whatever="@mdo">Detalles</button>
+                                        </div>
+                                    </div>
+                                    <div class="card" >
+                                          <img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/camiseta-2.jpg" class="card-img-top" alt="...">
+                                          <div class="card-body">
+                                            <h5 class="card-title">On Motion Live</h5>
+                                            <p class="card-text">Perfecta para las salidas Rocosas</p>
+                                            <a href="#" class="btn btn-primary">$79 <i class="fas fa-shopping-cart"></i> </a>
+                                            <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#dos" data-whatever="@mdo">Detalles</button>
+                                          </div>
+                                      </div>
+                                      <div class="card">
+                                              <img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/camiseta-3.jpg" class="card-img-top" alt="...">
+                                              <div class="card-body">
+                                                <h5 class="card-title">Underground Max</h5>
+                                                <p class="card-text">Para los amantes del Underground</p>
+                                                <a href="#" class="btn btn-primary">$55<i class="fas fa-shopping-cart"></i> </a>
+                                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#tres" data-whatever="@mdo">Detalles</button>
+                                              </div>
+                                      </div>
+                                      <div class="card">
+                                              <img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/camiseta-4.jpg" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Santo Domingo Tigers</h5>
+                                                    <p class="card-text">Para los amantes de lo extremo</p>
+                                                    <a href="#" class="btn btn-primary">$65<i class="fas fa-shopping-cart"></i> </a>
+                                                    <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#cuatro" data-whatever="@mdo">Detalles</button>
+                                                </div>
+                                        </div>
+                                        <div class="card">
+                                                <img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/camiseta-5.jpg" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Black kick</h5>
+                                                    <p class="card-text">Para los que son conservadores y sencillos </p>
+                                                    <a href="#" class="btn btn-primary">$86<i class="fas fa-shopping-cart"></i> </a>
+                                                      <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#cinco" data-whatever="@mdo">Detalles</button>
+                                                  </div>
+                                        </div>
+                          </div>
+                  </div>
+          
+            </div>
+    </div>
+</div>
+<!----------------------------------- modales------------------------------------- -->
+
+<!-- modal-1 -->
+
+<div class="modal fade bd-example-modal-lg" id="uno" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Hispter Ultimate</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                    <div class="alert alert-primary" role="alert">
+                            <i class="fas fa-exclamation-circle"></i>  Este producto esta agotado!!
+                     </div>
+                      <div class="row">
+                            <div class="col-6">
+                                    <img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/camiseta-1.jpg" class="card-img-top" alt="..."> 
+                            </div>
+                            <div class="col-6" id="estrellas">
+                                <h5> Precio:$55000</h5>  
+                                <h5> Calificacion:<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></h5>    
+                                <button type="button" class="btn btn-warning">Hispter</button>
+                                <button type="button" class="btn btn-secondary">Deportiva</button>
+                                <br>
+                                <a href="#"><i class="fas fa-heart"></i> Agregar a los Favoritos</a>
+                            </div>
+                      </div>
+                      <div class="row" id="tabs">
+                        <div class="col-12">
+                                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                        <li class="nav-item">
+                                          <a class="nav-link " id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Descripcion</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Comentarios</a>
+                                        </li>
+                                        
+                                      </ul>
+                                      <div class="tab-content" id="myTabContent">
+                                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                          <p>Esta una camiseta ideal para un nuevo estilo de vida y  tribus urbanas que quiera sentirse a la moda y bien consigo mismo, se tu mismo dale estilo a tu vida y se un Hipster!!</p>
+                                        </div>
+                                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                                <ul class="list-group">
+                                                        <li class="list-group-item list-group-item-secondary">El usuario Apaez comento hace 15 dias</li>
+                                                        <li class="list-group-item">Muy buena camisete recomiendo melishop  cumple con el tiempo de entrega estipulado!!</li>
+                                                </ul> 
+                                                <div class="input-group"id="comentarios">
+                                                        <textarea class="form-control" aria-label="With textarea" placeholder="Escribe un comentario"></textarea>
+                                                 </div>                             
+                                        </div>  
+                                      </div>
+                        </div>
+                      </div>
+            </div>
+            <div class="modal-footer" >
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+              <button type="button" class="btn btn-primary">Comprar<i class="fas fa-shopping-cart"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- modal-2 -->
+
+<div class="modal fade bd-example-modal-lg" id="dos" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">On Motion Live</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+                <div class="alert alert-primary" role="alert">
+                        <i class="fas fa-exclamation-circle"></i>  Este producto esta agotado!!
+                 </div>
+                  <div class="row">
+                        <div class="col-6">
+                                <img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/camiseta-2.jpg" class="card-img-top" alt="..."> 
+                        </div>
+                        <div class="col-6" id="estrellas">
+                            <h5> Precio:$79000</h5>  
+                            <h5> Calificacion:<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></h5>    
+                            <button type="button" class="btn btn-warning">Motion</button>
+                            <button type="button" class="btn btn-secondary">Deportiva</button>
+                            <br>
+                            <a href="#"><i class="fas fa-heart"></i> Agregar a los Favoritos</a>
+                        </div>
+                  </div>
+                  <div class="row" id="tabs">
+                    <div class="col-12">
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                    <li class="nav-item">
+                                      <a class="nav-link " id="home-tab" data-toggle="tab" href="#casa" role="tab" aria-controls="home" aria-selected="true">Descripcion</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" id="profile-tab" data-toggle="tab" href="#per" role="tab" aria-controls="profile" aria-selected="false">Comentarios</a>
+                                    </li>
+                                    
+                                  </ul>
+                                  <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane fade show active" id="casa" role="tabpanel" aria-labelledby="home-tab">
+                                      <p>Esta una camiseta ideal para un nuevo estilo de vida y  tribus urbanas que quiera sentirse a la moda y bien consigo mismo, se tu mismo dale estilo a tu vida y se un Hipster!!</p>
+                                    </div>
+                                    <div class="tab-pane fade" id="per" role="tabpanel" aria-labelledby="profile-tab">
+                                            <ul class="list-group">
+                                                    <li class="list-group-item list-group-item-secondary">El usuario Apaez comento hace 15 dias</li>
+                                                    <li class="list-group-item">Muy buena camisete recomiendo melishop  cumple con el tiempo de entrega estipulado!!</li>
+                                            </ul> 
+                                            <div class="input-group"id="comentarios">
+                                                    <textarea class="form-control" aria-label="With textarea" placeholder="Escribe un comentario"></textarea>
+                                             </div>                             
+                                    </div>  
+                                  </div>
+                    </div>
+                  </div>
+        </div>
+        <div class="modal-footer" >
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary">Comprar<i class="fas fa-shopping-cart"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!----------------------------------------------modal3> -->
+<div class="modal fade bd-example-modal-lg" id="tres" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Underground Max</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+                <div class="alert alert-primary" role="alert">
+                        <i class="fas fa-exclamation-circle"></i>  Este producto esta agotado!!
+                 </div>
+                  <div class="row">
+                        <div class="col-6">
+                                <img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/camiseta-3.jpg" class="card-img-top" alt="..."> 
+                        </div>
+                        <div class="col-6" id="estrellas">
+                            <h5> Precio:$55000</h5>  
+                            <h5> Calificacion:<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></h5>    
+                            <button type="button" class="btn btn-warning">Max</button>
+                            <button type="button" class="btn btn-secondary">Deportiva</button>
+                            <br>
+                            <a href="#"><i class="fas fa-heart"></i> Agregar a los Favoritos</a>
+                        </div>
+                  </div>
+                  <div class="row" id="tabs">
+                    <div class="col-12">
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                    <li class="nav-item">
+                                      <a class="nav-link " id="home-tab" data-toggle="tab" href="#under" role="tab" aria-controls="home" aria-selected="true">Descripcion</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" id="profile-tab" data-toggle="tab" href="#max" role="tab" aria-controls="profile" aria-selected="false">Comentarios</a>
+                                    </li>
+                                    
+                                  </ul>
+                                  <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane fade show active" id="under" role="tabpanel" aria-labelledby="home-tab">
+                                      <p>Esta una camiseta ideal para un nuevo estilo de vida y  tribus urbanas que quiera sentirse a la moda y bien consigo mismo, se tu mismo dale estilo a tu vida y se un Hipster!!</p>
+                                    </div>
+                                    <div class="tab-pane fade" id="max" role="tabpanel" aria-labelledby="profile-tab">
+                                            <ul class="list-group">
+                                                    <li class="list-group-item list-group-item-secondary">El usuario Apaez comento hace 15 dias</li>
+                                                    <li class="list-group-item">Muy buena camisete recomiendo melishop  cumple con el tiempo de entrega estipulado!!</li>
+                                            </ul> 
+                                            <div class="input-group"id="comentarios">
+                                                    <textarea class="form-control" aria-label="With textarea" placeholder="Escribe un comentario"></textarea>
+                                             </div>                             
+                                    </div>  
+                                  </div>
+                    </div>
+                  </div>
+        </div>
+        <div class="modal-footer" >
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary">Comprar<i class="fas fa-shopping-cart"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+<!----------------------------------------------modal4> -->
+<div class="modal fade bd-example-modal-lg" id="cuatro" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Santo Domingo</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+                <div class="alert alert-primary" role="alert">
+                        <i class="fas fa-exclamation-circle"></i>  Este producto esta agotado!!
+                 </div>
+                  <div class="row">
+                        <div class="col-6">
+                                <img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/camiseta-4.jpg" class="card-img-top" alt="..."> 
+                        </div>
+                        <div class="col-6" id="estrellas">
+                            <h5> Precio:$65000</h5>  
+                            <h5> Calificacion:<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></h5>    
+                            <button type="button" class="btn btn-warning">Santo D.</button>
+                            <button type="button" class="btn btn-secondary">Deportiva</button>
+                            <br>
+                            <a href="#"><i class="fas fa-heart"></i> Agregar a los Favoritos</a>
+                        </div>
+                  </div>
+                  <div class="row" id="tabs">
+                    <div class="col-12">
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                    <li class="nav-item">
+                                      <a class="nav-link " id="home-tab" data-toggle="tab" href="#santo" role="tab" aria-controls="home" aria-selected="true">Descripcion</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" id="profile-tab" data-toggle="tab" href="#domingo" role="tab" aria-controls="profile" aria-selected="false">Comentarios</a>
+                                    </li>
+                                    
+                                  </ul>
+                                  <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane fade show active" id="santo" role="tabpanel" aria-labelledby="home-tab">
+                                      <p>Esta una camiseta ideal para un nuevo estilo de vida y  tribus urbanas que quiera sentirse a la moda y bien consigo mismo, se tu mismo dale estilo a tu vida y se un Hipster!!</p>
+                                    </div>
+                                    <div class="tab-pane fade" id="domingo" role="tabpanel" aria-labelledby="profile-tab">
+                                            <ul class="list-group">
+                                                    <li class="list-group-item list-group-item-secondary">El usuario Apaez comento hace 15 dias</li>
+                                                    <li class="list-group-item">Muy buena camisete recomiendo melishop  cumple con el tiempo de entrega estipulado!!</li>
+                                            </ul> 
+                                            <div class="input-group"id="comentarios">
+                                                    <textarea class="form-control" aria-label="With textarea" placeholder="Escribe un comentario"></textarea>
+                                             </div>                             
+                                    </div>  
+                                  </div>
+                    </div>
+                  </div>
+        </div>
+        <div class="modal-footer" >
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary">Comprar<i class="fas fa-shopping-cart"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<!----------------------------------------------modal5> -->
+<div class="modal fade bd-example-modal-lg" id="cinco" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Black kick</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+                <div class="alert alert-success" role="alert">
+                        <i class="fas fa-exclamation-circle"></i>  Quedan las ultimas 10 und.!!
+                 </div>
+                  <div class="row">
+                        <div class="col-6">
+                                <img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/camiseta-5.jpg" class="card-img-top" alt="..."> 
+                        </div>
+                        <div class="col-6" id="estrellas">
+                            <h5> Precio:$86000</h5>  
+                            <h5> Calificacion:<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></h5>    
+                            <button type="button" class="btn btn-warning">Black k.</button>
+                            <button type="button" class="btn btn-secondary">Deportiva</button>
+                            <br>
+                            <a href="#"><i class="fas fa-heart"></i> Agregar a los Favoritos</a>
+                        </div>
+                  </div>
+                  <div class="row" id="tabs">
+                    <div class="col-12">
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                    <li class="nav-item">
+                                      <a class="nav-link " id="home-tab" data-toggle="tab" href="#black" role="tab" aria-controls="home" aria-selected="true">Descripcion</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" id="profile-tab" data-toggle="tab" href="#kick" role="tab" aria-controls="profile" aria-selected="false">Comentarios</a>
+                                    </li>
+                                    
+                                  </ul>
+                                  <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane fade show active" id="black" role="tabpanel" aria-labelledby="home-tab">
+                                      <p>Esta una camiseta ideal para un nuevo estilo de vida y  tribus urbanas que quiera sentirse a la moda y bien consigo mismo, se tu mismo dale estilo a tu vida y se un Hipster!!</p>
+                                    </div>
+                                    <div class="tab-pane fade" id="kick" role="tabpanel" aria-labelledby="profile-tab">
+                                            <ul class="list-group">
+                                                    <li class="list-group-item list-group-item-secondary">El usuario Apaez comento hace 15 dias</li>
+                                                    <li class="list-group-item">Muy buena camisete recomiendo melishop  cumple con el tiempo de entrega estipulado!!</li>
+                                            </ul> 
+                                            <div class="input-group"id="comentarios">
+                                                    <textarea class="form-control" aria-label="With textarea" placeholder="Escribe un comentario"></textarea>
+                                             </div>                             
+                                    </div>  
+                                  </div>
+                    </div>
+                  </div>
+        </div>
+        <div class="modal-footer" >
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary">Comprar<i class="fas fa-shopping-cart"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>

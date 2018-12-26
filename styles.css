@@ -1,0 +1,58 @@
+.navbar-brand{
+font-family: 'Dr Sugiyama', cursive;
+margin-left: 25px;
+font-size: 15em
+}
+#navbarNav{
+    margin-right: 25px; 
+}
+#cuerpo{
+margin-top: 20px;
+}
+
+#tarjetas .card{
+    max-width: 250px;
+    padding:10px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+#estrellas{
+    text-align: left;
+}
+#tabs{
+    margin-top:10px;
+}
+#comentarios{
+    margin-top:10px;
+}
+#home-tab:hover,#profile-tab:hover{
+
+    opacity: 1;
+}
+
+/* responsive */
+@media (max-width: 880px) {
+    #menu{
+      display: none;
+    }
+    #buscador #buscar{
+        position: absolute;
+        width: 500px;
+        margin-left: 200px;
+    }
+    
+    #tarjetas .card{
+
+        width: 150px;
+    }
+    .col-9{
+
+margin-top: 100px;
+
+    }
+    h5{
+        display: none;
+    }
+   
+   
+  }
