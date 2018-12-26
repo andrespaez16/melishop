@@ -30,29 +30,4 @@ margin-top: 20px;
     opacity: 1;
 }
 
-/* responsive */
-@media (max-width: 880px) {
-    #menu{
-      display: none;
-    }
-    #buscador #buscar{
-        position: absolute;
-        width: 500px;
-        margin-left: 200px;
-    }
-    
-    #tarjetas .card{
-
-        width: 150px;
-    }
-    .col-9{
-
-margin-top: 100px;
-
-    }
-    h5{
-        display: none;
-    }
-   
-   
-  }
+/
