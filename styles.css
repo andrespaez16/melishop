@@ -9,12 +9,9 @@ font-size: 15em
 #cuerpo{
 margin-top: 20px;
 }
-
-#tarjetas .card{
-    max-width: 250px;
-    padding:10px;
-    margin-left: 15px;
-    margin-top: 20px;
+.card{
+    width: 230px;
+    margin-top: 20px;   
 }
 #estrellas{
     text-align: left;
